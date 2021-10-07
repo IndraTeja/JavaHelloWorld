@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Building....'
                 sh ''' 
-                java -version
+                javac -version
                 javac HelloWorld.java
                 java HelloWorld
                 
