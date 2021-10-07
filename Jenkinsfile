@@ -1,14 +1,6 @@
 pipeline { 
     agent any
     stages { 
-        stage('source') {
-            steps {
-                echo 'SCM....'
-                git 'https://github.com/IndraTeja/JavaHelloWorld.git'
-
-            }
-
-        }
         stage('build') {
             steps {
                 echo 'Building....'
